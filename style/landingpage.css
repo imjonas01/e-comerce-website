@@ -1,0 +1,309 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: url('/background/AJ-14.webp') no-repeat;
+   background-size: cover;
+    height: 100vh;
+    background-position: center;
+
+}
+
+header img {
+    width: 200px;
+}
+
+header {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.tagline {
+    color: rgb(226, 223, 223);
+    text-align: center;
+    letter-spacing: 12px;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.landingpage {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100vh;
+}
+
+.content {
+    padding-top: 3em;
+    width: 80%;
+    margin: auto;
+    margin-top: 2em;
+}
+
+.text-and-btn p {
+    font-size: 30px;
+    color: rgb(212, 207, 207);
+    line-height: 1.5em;
+    letter-spacing: 12px;
+    font-size: 30px;
+    font-weight: smaller;
+}
+
+.text-and-btn {
+    border-left: 1px solid white;
+    padding-left: 3em;
+}
+
+.btn {
+    margin-top: 2em;
+}
+
+.btn .login {
+    background-color: rgb(115, 27, 27);
+}
+
+.btn .login:hover {
+    background-color: rgb(150, 53, 53);
+}
+
+.btn button {
+    letter-spacing: 3px;
+    background-color: rgb(66, 62, 62);
+    font-size: 14px;
+    padding: 15px 20px;
+    border-radius: 40px;
+    color: rgb(219, 214, 214);
+    transition: 200ms background-color ease-in-out, 200ms color ease-in-out;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background: rgba(134, 131, 131, 0.2);
+    color: rgb(207, 199, 199);
+    border-color: rgba(251, 248, 248, 0.2);
+    outline: none;
+
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.social-media img {
+    width: 30px;
+    margin-top: 3em;
+    margin-left: 1em;
+    cursor: pointer;
+    transform: scale(1);
+    transition: 200ms all ease-in-out;
+
+}
+
+.social-media img:hover {
+    transform: scale(1.2);
+}
+
+footer {
+    padding-top: 10em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img {
+    width: 60px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+footer h1 {
+    color: rgb(218, 213, 213);
+    display: block;
+    font-weight: normal;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+/* modal login */
+
+
+.login-modal-container {
+    background: rgba(0, 0, 0, 0.6);
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.login-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+form {
+    padding: 2em;
+    text-align: center;
+    width: 400px;
+    background-color: grey;
+    position: relative;
+
+}
+
+form p,
+span {
+    color: rgb(252, 245, 245);
+    font-size: small;
+}
+
+form img {
+    width: 200px;
+    margin-bottom: 1em;
+}
+
+form h2:last-of-type {
+    margin-bottom: 1.5em;
+}
+
+form h2 {
+    font-size: 20px;
+}
+
+form input[type="email"],
+input[type="password"],
+input[type="submit"] {
+    display: block;
+    width: 100%;
+    margin-bottom: 1em;
+    padding: 1em;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+form input[type="email"],
+input[type="password"] {
+    background: inherit;
+    border: 1px solid rgb(201, 195, 195);
+}
+
+form input[type="checkbox"] {
+    width: fit-content;
+    background-color: black;
+    margin-right: 5px;
+
+}
+
+form input:focus {
+    border-color: rgb(233, 23, 23);
+}
+
+form input::placeholder {
+    color: white;
+}
+
+.checkbox {
+    display: flex;
+    justify-content: space-between;
+    margin: 2em;
+}
+
+.checkbox div {
+    display: flex;
+}
+
+form span {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.left {
+    margin-left: 5px;
+}
+
+.checkbox input[type="checkbox"]:checked {
+    accent-color: rgb(255, 38, 38);
+
+}
+
+form input[type=submit] {
+    background: linear-gradient(45deg, red, blue);
+    color: white;
+    margin: 2em 0 2em 0;
+    cursor: pointer;
+    transition: 200ms background-color ease-in-out;
+}
+
+form input[type=submit]:hover {
+    background-color: rgb(55, 54, 54);
+}
+
+
+.xbtn img {
+    width: 20px;
+    position: absolute;
+    top: 0;
+    right: 10px;
+
+
+}
+
+.xbtn img:hover {
+    background-color: rgb(99, 98, 98);
+
+}
+
+
+
+
+@media only screen and (min-width: 700px) {
+    .content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .social-media {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .social-media img {
+        width: 40px;
+    }
+
+    header {
+        display: unset;
+        padding: 1em;
+    }
+    .logo{
+        padding-left: 7em;
+    }
+
+    .text-and-btn p {
+        font-size: 50px;
+    }
+
+    footer img {
+        width: 100px;
+    }
+    footer{
+        padding-top: 10em;
+    }
+}

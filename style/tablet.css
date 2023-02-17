@@ -1,0 +1,111 @@
+@media only screen and (min-width: 600px) {
+    .hamburger {
+        display: none;
+    }
+
+    .nav {
+        display: contents;
+
+    }
+    
+
+    .header {
+        align-items: center;
+    }
+
+    .cart {
+        margin-right: 4em;
+    }
+
+
+    .login {
+        display: contents;
+
+    }
+
+    .login-btn {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 20px;
+        color: white;
+        background-color: black;
+        transition: 200ms background-color ease-in-out;
+    }
+
+    .login-btn:hover{
+        background-color: rgb(75, 74, 74);
+    }
+
+
+    .nav ul {
+        display: flex;
+        list-style-type: none;
+    }
+
+    .nav li a {
+        padding: 0.5em;
+        text-decoration: none;
+        color: rgb(46, 45, 45);
+        font-weight: bold;
+        border-radius: 2px;
+        transition: background-color 200ms ease-in-out, color 200ms ease-in-out;
+    }
+
+    .nav li a:hover {
+        background-color: rgb(39, 38, 38);
+        color: white;
+    }
+
+    .showcase .white-space {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 20px;
+
+    }
+
+
+    .trending .white-space {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 10px;
+
+    }
+
+    .trending p {
+        text-align: center;
+    }
+
+    .featured .white-space {
+        position: relative;
+    }
+
+    .featured .white-space div {
+        position: absolute;
+    }
+}
+
+
+/* laptop size */
+
+@media only screen and (min-width: 1024px) {
+
+    .tagline p {
+        font-size: 30px;
+    }
+
+    .tagline h1 {
+        font-size: 70px;
+    }
+
+    .tagline2 h1 {
+        font-size: 70px;
+    }
+
+    .tagline2 p {
+        font-size: 20px;
+    }
+
+    .featured .white-space div {
+        font-size: 40px;
+    }
+}

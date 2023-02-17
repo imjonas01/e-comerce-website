@@ -1,0 +1,174 @@
+header {
+    background-color: white;
+    padding: 25px 0px 0px 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+header .white-space {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+.logo-container a img {
+    width: 150px;
+    transition: opacity 100ms ease-in;
+    align-items: center;
+
+}
+
+.logo-container a img:hover {
+    opacity: 0.6;
+}
+
+.nav {
+    /* display later */
+    display: none;
+}
+.navbar ul{
+    margin-left: 15px;
+    margin-bottom: 2em;
+}
+
+.cart {
+    width: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.cart  a{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cartQuantity {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    padding: 2px 6px;
+    background-color: red;
+    color: white;
+    border-radius: 2px;
+
+}
+.cart:hover{
+    cursor: pointer;
+}
+
+.left-header{
+    display: flex;
+    align-items: center;
+}
+
+
+.login{
+    display: none;
+}
+.nav-login{
+    display: flex;
+    justify-content: center;
+    
+}
+.login-btn {
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+    transition: 200ms background-color ease-in-out;
+}
+
+.login-btn:hover{
+    background-color: rgb(75, 74, 74);
+}
+
+.hamburger {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    transition: 200ms background-color ease-in-out;
+    border-radius: 50%;
+}
+
+.hamburger:hover {
+    background-color: rgb(229, 223, 223);
+
+}
+
+.hamburger .hamburger-menu {
+    width: 18px;
+}
+
+.mobileNavContainer {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 80%;
+    height: 100%;
+    background-color: rgb(222, 218, 218);
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    transition: 200ms ease-in;
+
+}
+
+.navbar {
+    margin-top: 5em;
+}
+
+.navbar ul {
+    list-style-type: none;
+
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    padding: 1em 100px;
+    border-radius: 4px;
+    transition: 100ms background-color ease-in-out, 100ms color ease-in-out;
+    display: block;
+
+}
+
+.navbar li:hover a {
+    background-color: rgb(72, 69, 69);
+    color: white;
+}
+
+.x-btn img {
+    width: 20px;
+}
+
+.x-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 1em;
+    right: 2em;
+    border-radius: 50%;
+}
+
+.x-btn:hover {
+    background-color: rgb(161, 155, 155);
+    border-radius: 50%;
+}
+
+.mobileNavContainer.active {
+    left: 0;
+}

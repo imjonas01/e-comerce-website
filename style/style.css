@@ -1,0 +1,176 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(229, 229, 229);
+    font-family: sans-serif;
+    padding-top: 6em;
+}
+
+
+
+.white-space {
+    width: 90%;
+    margin: auto;
+}
+
+.hero img {
+    width: 100%;
+    padding-top: 1em;
+}
+
+
+.tagline {
+    text-align: center;
+    padding: 2em;
+
+}
+
+.tagline p {
+    font-size: 20px;
+
+}
+
+.tagline h1 {
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+
+
+.btn {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    transition: background-color 100ms ease-in-out;
+    margin: 1em 0;
+    border: none;
+    outline: none;
+
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn:hover {
+    background-color: rgb(86, 84, 84);
+
+}
+
+.btn:active {
+    background-color: rgb(60, 59, 59);
+}
+
+.showcase {
+    width: 100%;
+
+}
+
+.showcase img {
+    width: 100%;
+}
+
+.showcase-container {
+    margin-bottom: 1em;
+}
+
+.showcase-container1 {
+    position: relative;
+}
+
+.btn1 {
+    position: absolute;
+    bottom: 2em;
+    left: 2em;
+
+}
+
+.showcase-container2 {
+    position: relative;
+}
+
+.btn2 {
+    position: absolute;
+    bottom: 2em;
+    left: 2em;
+
+}
+
+.showcase-container3 {
+    position: relative;
+}
+
+.btn3 {
+    position: absolute;
+    bottom: 2em;
+    left: 2em;
+
+}
+
+.showcase-container4 {
+    position: relative;
+}
+
+.btn4 {
+    position: absolute;
+    bottom: 2em;
+    left: 2em;
+
+}
+
+.tagline2 {
+    text-align: center;
+    padding: 2em;
+}
+
+.trending p {
+    text-align: center;
+    margin-bottom: 0.5em;
+    font-size: 30px;
+}
+
+.trending .white-space div {
+    width: 100%;
+}
+
+.trending img {
+    width: 100%;
+}
+
+.trending {
+    margin-bottom: 1em;
+}
+
+
+
+.featured {
+    width: 100%;
+    position: relative;
+    margin-bottom: 2em;
+}
+
+.featured .white-space img {
+    width: 100%;
+}
+
+.featured .white-space div {
+    position: absolute;
+    left: 2em;
+    bottom: 1em;
+    color: white;
+}
+
+.categories {
+    text-align: center;
+}
+
+.categories .options {
+    font-size: 20px;
+}

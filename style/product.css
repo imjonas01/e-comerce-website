@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+main {
+    padding-bottom: 5em;
+    padding-top: 2em;
+}
+
+.white-space .product-image {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+
+.white-space {
+    position: relative;
+    margin-bottom: 2em;
+
+}
+
+main .white-space {
+    border-radius: 5px;
+    box-shadow: 0px 10px 10px 0.5px rgb(200, 194, 194);
+    padding-bottom: 2em;
+
+}
+
+/* 
+.white-space .add-cart-btn {
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+
+} */
+.cartContainer .img-container {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    overflow: hidden;
+
+}
+
+.white-space .product-image {
+    transform: scale(1);
+    transition: 500ms transform ease-in-out;
+    
+
+}
+
+.white-space .product-image:hover {
+    transform: scale(1.1);
+
+}
+
+.cartContainer .product-categories {
+    line-height: 1.7em;
+    margin-bottom: 15px;
+    color: grey;
+
+}
+
+.white-space .price-and-add-btn {
+    padding: 0px 1em;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.white-space .add-button {
+    display: flex;
+    font-size: 20px;
+    gap: 10px;
+}
+
+
+.white-space .add-cart-btn .cart-icon {
+    width: 30px;
+}
+
+.cartContainer .cart-details {
+    padding: 1em;
+}
+
+
+
+.cartContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+/* tablet and desktop */
+
+@media only screen and (min-width: 700px) {
+    .cartContainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3em;
+}
+
+form {
+    text-align: center;
+    width: 400px;
+}
+
+form p,
+span {
+    color: rgb(97, 94, 94);
+    font-size: small;
+}
+
+form img {
+    width: 200px;
+    margin-bottom: 1em;
+}
+
+form h2:last-of-type {
+    margin-bottom: 1.5em;
+}
+
+form h2 {
+    font-size: 20px;
+}
+
+form input[type="email"],
+input[type="password"],
+input[type="submit"] {
+    display: block;
+    width: 100%;
+    margin-bottom: 1em;
+    padding: 1em;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+form input[type="email"],
+input[type="password"] {
+    background: inherit;
+    border: 1px solid rgb(201, 195, 195);
+}
+
+form input[type="checkbox"] {
+    width: 30px;
+    background-color: black;
+
+}
+
+form input[type="password"]:focus {
+    outline: 1px solid red;
+}
+
+form input[type="email"]:focus {
+    outline: 1px solid red;
+}
+
+.checkbox {
+    display: flex;
+    justify-content: space-between;
+    margin: 2em;
+}
+
+.checkbox div {
+    display: flex;
+}
+
+form span {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.left {
+    margin-left: 5px;
+}
+
+.checkbox input[type="checkbox"]:checked {
+    accent-color: black;
+
+}
+
+form input[type=submit] {
+    background: linear-gradient(90deg, red, blue);
+    color: white;
+    margin: 2em 0 2em 0;
+    cursor: pointer;
+}
